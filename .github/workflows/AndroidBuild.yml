@@ -21,10 +21,11 @@
             distribution: 'adopt'
 
         - name: Build with Gradle
-          run: ./gradlew build
+          uses: gradle/actions@v3.3.2
+
 
         - name: Upload a Build Artifact
           uses: actions/upload-artifact@v4.3.3
           with:
             name: AndroidCICD.apk
-            path: app/build/outputs/apk/app-debug.apk
+            path: app/build/outputs/apk/debug/app-debug.apk
