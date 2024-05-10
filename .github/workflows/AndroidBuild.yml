@@ -21,7 +21,7 @@
             distribution: 'adopt'
 
         - name: Build with Gradle
-          uses: ./gradlew build
+          run: ./gradlew build
 
 
         - name: Upload a Build Artifact
