@@ -21,7 +21,7 @@
             distribution: 'adopt'
 
         - name: Build with Gradle
-          uses: gradle/actions/setup-gradle@v3.3.2
+          uses: gradle/actions@v3.3.2
 
 
         - name: Upload a Build Artifact
@@ -29,6 +29,3 @@
           with:
             name: AndroidCICD.apk
             path: app/build/outputs/apk/debug/app-debug.apk
-            if-no-files-found: warn
-            compression-level: 6
-            overwrite: true
