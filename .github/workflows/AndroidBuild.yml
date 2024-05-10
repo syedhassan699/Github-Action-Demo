@@ -31,4 +31,4 @@
             path: app/build/outputs/apk/debug/app-debug.apk
             if-no-files-found: warn
             compression-level: 6
-            overwrite: false
+            overwrite: true
