@@ -47,5 +47,4 @@ runs:
     #Fastlane execution
     - name: Fastlane lane execution
       shell: bash
-      run: |
-        bundle exec fastlane distribute
+      run: bundle exec fastlane distribute
