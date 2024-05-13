@@ -32,7 +32,7 @@ runs:
 
     # Sets up the Android SDK environment
     - name: Set up Android SDK
-      uses: malinskiy/action-android/install-sdk@release/0.1.6 #android-actions/setup-android@v2
+      uses: android-actions/setup-android@v2
     #Fastlane execution
     - name: Fastlane lane execution
       shell: bash
