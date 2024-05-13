@@ -45,6 +45,6 @@ runs:
           ${{ runner.os }}-gradle-
 
     #Fastlane execution
-    - name: Fastlane lane execution
-      shell: bash
-      run: bundle exec fastlane distribute
+#    - name: Fastlane lane execution
+#      shell: bash
+#      run: bundle exec fastlane distribute
