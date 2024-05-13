@@ -13,15 +13,15 @@ runs:
 
     #print ruby version
 
-    - name: print ruby version
-      shell: bash
-      run: ruby --version
-    - name: Install bundler
-      shell: bash
-      run: |
-        gem install bundler
-        bundle config set --local path vendor/bundle
-        bundle install
+#    - name: print ruby version
+#      shell: bash
+#      run: ruby --version
+#    - name: Install bundler
+#      shell: bash
+#      run: |
+#        gem install bundler
+#        bundle config set --local path vendor/bundle
+#        bundle install
 
     # Sets up a Java environment
     - name: "Setup Java"
