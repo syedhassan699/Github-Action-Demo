@@ -21,7 +21,7 @@ runs:
       run: |
         gem install bundler
         bundle config set --local path vendor/bundle
-        bundle install
+#        bundle install
 
     # Sets up a Java environment
     - name: Setup Java
